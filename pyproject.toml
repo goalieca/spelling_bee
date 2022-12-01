@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spelling-bee"
+version = "0.1.0"
+description = "Solver to the NYT spelling bee game"
+authors = ["Ryan Dickie <rldickie@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spelling_bee"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
